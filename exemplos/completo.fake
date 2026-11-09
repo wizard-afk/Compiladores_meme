@@ -1,0 +1,30 @@
+#ficadica Programa completo demonstrando todas as capacidades da linguagem
+
+olha ela calcular_fatorial(n):
+    Não acho que quem ganhar ou quem perder n <= 1:
+        devolva 1
+    devolva n * calcular_fatorial(n - 1)
+
+olha ela classificar_numero(num):
+    Não acho que quem ganhar ou quem perder num > 0:
+        devolva "Positivo"
+    Vai ganhar ou perder num < 0:
+        devolva "Negativo"
+    Nem quem ganhar nem perder:
+        devolva "Zero"
+
+# Programa principal
+Posso fala?("=== Sistema de Calculo Meme ===")
+
+receba - luva de pedreiro valor = 5
+receba fat = calcular_fatorial(valor)
+Posso fala?("Fatorial de", valor, "eh", fat)
+
+receba classificacao = classificar_numero(valor)
+Posso fala?("Classificacao:", classificacao)
+
+Posso fala?("Contagem de 1 ate 5:")
+para i de 1 ate 5:
+    Posso fala?("Passo", i)
+
+Posso fala?("Sucesso total! Receba!")

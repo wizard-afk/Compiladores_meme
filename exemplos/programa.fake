@@ -1,0 +1,6 @@
+#ficadica Meu primeiro programa na linguagem meme
+# Exibe mensagens na tela
+
+Posso fala?("Ola, Mundo Meme!")
+imprimir("Compilador da Linguagem Ficticia para Python funcionando com sucesso!")
+Posso fala?("Posso fala? Sim, pode falar a vontade!")

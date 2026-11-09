@@ -1,0 +1,48 @@
+#ficadica Exemplo simples: sistema de pontuação e cadastro de jogador
+
+#ficadica Declaração de função (olha ela) e retornos (devolva)
+olha ela calcular_bonus(pontos):
+    Não acho que quem ganhar ou quem perder pontos <= 0:
+        devolva - luva de pedreiro reverso nada pra comer nessa casa
+    devolva pontos * 10
+
+#ficadica Entrada de dados (Hi Lorena) e declaração com meme longo
+receba - luva de pedreiro nome = Hi Lorena("Nome do jogador: ")
+
+#ficadica Conversões de tipos primitivos (nazare tedesco, alisa meu pelo, joao de berro, eu si lembro)
+receba idade = nazare tedesco("25")
+receba pontos = alisa meu pelo("15.5")
+receba status_texto = joao de berro(pontos)
+receba ativo = eu si lembro(Muehehe)
+
+#ficadica Literais booleanos e nulo (Muehehe, Nuquidito, nada pra comer nessa casa)
+receba suspenso = Nuquidito
+receba penalidade = nada pra comer nessa casa
+
+#ficadica Saída de dados (Posso fala?)
+Posso fala?("Jogador cadastrado:", nome, "Idade:", idade)
+
+#ficadica Condicionais (Não acho que..., Vai ganhar..., Nem quem...)
+Não acho que quem ganhar ou quem perder pontos >= 50.0:
+    Posso fala?("Nivel: Ouro")
+Vai ganhar ou perder pontos >= 10.0:
+    Posso fala?("Nivel: Prata")
+Nem quem ganhar nem perder:
+    Posso fala?("Nivel: Bronze")
+
+#ficadica Laço enquanto (tuntuntuntuntuntuntunsahur) com parada (calma calabreso)
+receba tentativas = 1
+tuntuntuntuntuntuntunsahur tentativas <= 5:
+    Não acho que quem ganhar ou quem perder tentativas == 3:
+        calma calabreso
+    tentativas = tentativas + 1
+
+#ficadica Laço para (Eita Giovana, o FORninho caiu!) com pulo (Aham Claudia, senta lá)
+Eita Giovana, o FORninho caiu! rodada de 1 ate 5:
+    Não acho que quem ganhar ou quem perder rodada == 2:
+        Aham Claudia, senta lá
+    Posso fala?("Executando rodada:", rodada)
+
+#ficadica Chamada de função e exibição final
+receba bonus_final = calcular_bonus(10)
+Posso fala?("Bonus calculado:", bonus_final)

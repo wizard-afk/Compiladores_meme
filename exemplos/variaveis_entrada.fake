@@ -1,0 +1,14 @@
+#ficadica Declaracao de variaveis, tipos e entrada
+
+receba - luva de pedreiro nome = "Dev"
+receba idade_texto = "25"
+receba idade = nazare tedesco(idade_texto)
+variavel altura = alisa meu pelo("1.75")
+receba programador = Muehehe
+receba sem_valor = nada pra comer nessa casa
+
+Posso fala?("Nome:", nome)
+Posso fala?("Idade:", idade)
+Posso fala?("Altura:", altura)
+Posso fala?("Eh programador?", programador)
+Posso fala?("Valor nulo:", sem_valor)

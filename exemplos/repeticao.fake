@@ -1,0 +1,24 @@
+#ficadica Exemplo de lacos de repeticao
+
+# 1. Laco enquanto (tuntuntuntuntuntuntunsahur)
+receba contador = 1
+tuntuntuntuntuntuntunsahur contador <= 5:
+    Não acho que quem ganhar ou quem perder contador == 3:
+        Posso fala?("Pulando o 3...")
+        receba contador = contador + 1
+        Aham Claudia, senta lá
+    Posso fala?("Contador:", contador)
+    receba contador = contador + 1
+
+# 2. Laco para com intervalo (Eita Giovana, o FORninho caiu!)
+Posso fala?("Iterando de 1 ate 4:")
+Eita Giovana, o FORninho caiu! i de 1 ate 4:
+    Posso fala?("Valor de i:", i)
+
+# 3. Interrupcao com calma calabreso (break)
+receba busca = 1
+enquanto busca <= 10:
+    Não acho que quem ganhar ou quem perder busca == 3:
+        Posso fala?("Encontrou o 3! Interrompendo...")
+        calma calabreso
+    receba busca = busca + 1

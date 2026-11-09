@@ -1,0 +1,16 @@
+#ficadica Declaracao e chamada de funcoes
+
+olha ela somar(a, b):
+    devolva a + b
+
+olha ela maior_de_idade(idade):
+    Não acho que quem ganhar ou quem perder idade >= 18:
+        devolva Muehehe
+    Nem quem ganhar nem perder:
+        devolva Nuquidito
+
+receba resultado = somar(15, 27)
+Posso fala?("15 + 27 =", resultado)
+
+receba eh_maior = maior_de_idade(20)
+Posso fala?("Idade 20 eh maior de idade?", eh_maior)

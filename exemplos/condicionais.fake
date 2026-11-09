@@ -1,0 +1,12 @@
+#ficadica Exemplo de estruturas condicionais com memes da Dilma
+
+receba nota = 30
+
+Não acho que quem ganhar ou quem perder nota >= 90:
+    Posso fala?("Conceito A: Excelente!")
+Vai ganhar ou perder nota >= 70:
+    Posso fala?("Conceito B: Aprovado!")
+Vai ganhar ou perder nota >= 50:
+    Posso fala?("Conceito C: Em recuperacao!")
+Nem quem ganhar nem perder:
+    Posso fala?("Conceito D: Reprovado!")
